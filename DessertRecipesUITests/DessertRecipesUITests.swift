@@ -8,18 +8,26 @@
 import XCTest
 
 final class DessertRecipesUITests: XCTestCase {
+    var app: XCUIApplication!
 
     override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
-
-        // In UI tests it is usually best to stop immediately when a failure occurs.
+        try super.setUpWithError()
         continueAfterFailure = false
+        app = XCUIApplication()
+        app.launch()
 
-        // In UI tests it’s important to set the initial state - such as interface orientation - required for your tests before they run. The setUp method is a good place to do this.
     }
+    func testPicker()throws{
+        
+        let elementsQuery = app.scrollViews.otherElements
+        let dessertName = elementsQuery.buttons["Apple Frangipan Tart"]
+        let instructionText = elementsQuery.staticTexts["Instructions"]
+        let ingredientsText = elementsQuery.staticTexts["Ingredients"]
+        
+        dessertName.tap()
+        XCTAssertTrue(instructionText.exists)
+        XCTAssertTrue(ingredientsText.exists)
 
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
     func testExample() throws {

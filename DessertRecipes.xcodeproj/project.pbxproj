@@ -18,6 +18,7 @@
 		C03C19FC2A1724D70069DD91 /* DetailedViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03C19FB2A1724D70069DD91 /* DetailedViewViewModel.swift */; };
 		C03C19FE2A1726C20069DD91 /* DetailedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03C19FD2A1726C20069DD91 /* DetailedView.swift */; };
 		C03C1A022A1728CF0069DD91 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03C1A012A1728CF0069DD91 /* Color.swift */; };
+		C0659A3C2A1BD35500369935 /* DessertRecipesSlowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0659A3B2A1BD35500369935 /* DessertRecipesSlowTests.swift */; };
 		C0AB456C2A1489D6003C4FC4 /* DessertRecipesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AB456B2A1489D6003C4FC4 /* DessertRecipesApp.swift */; };
 		C0AB456E2A1489D6003C4FC4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AB456D2A1489D6003C4FC4 /* ContentView.swift */; };
 		C0AB45702A1489D7003C4FC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0AB456F2A1489D7003C4FC4 /* Assets.xcassets */; };
@@ -60,6 +61,7 @@
 		C03C19FB2A1724D70069DD91 /* DetailedViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedViewViewModel.swift; sourceTree = "<group>"; };
 		C03C19FD2A1726C20069DD91 /* DetailedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedView.swift; sourceTree = "<group>"; };
 		C03C1A012A1728CF0069DD91 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		C0659A3B2A1BD35500369935 /* DessertRecipesSlowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertRecipesSlowTests.swift; sourceTree = "<group>"; };
 		C0AB45682A1489D6003C4FC4 /* DessertRecipes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DessertRecipes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0AB456B2A1489D6003C4FC4 /* DessertRecipesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertRecipesApp.swift; sourceTree = "<group>"; };
 		C0AB456D2A1489D6003C4FC4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -198,6 +200,7 @@
 			isa = PBXGroup;
 			children = (
 				C0AB457D2A1489D7003C4FC4 /* DessertRecipesTests.swift */,
+				C0659A3B2A1BD35500369935 /* DessertRecipesSlowTests.swift */,
 			);
 			path = DessertRecipesTests;
 			sourceTree = "<group>";
@@ -401,6 +404,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C0AB457E2A1489D7003C4FC4 /* DessertRecipesTests.swift in Sources */,
+				C0659A3C2A1BD35500369935 /* DessertRecipesSlowTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
