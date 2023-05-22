@@ -11,12 +11,6 @@ struct Recipe: Codable, Hashable  {
     let instructions: [String]?
     let ingredients: [String:String]?
     
-    
-    
-    static func == (lhs: Recipe, rhs: Recipe) -> Bool {
-        return lhs.ingredients == rhs.ingredients && lhs.name == rhs.name && lhs.instructions == rhs.instructions
-    }
-    
 }
 
 
